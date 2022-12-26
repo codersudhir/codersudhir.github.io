@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="./dp.jpg" type="image/x-icon" />
+
+    <meta name="title" content="Sudhir Nandane" />
+   
+    <meta
+      name="keywords"
+      content="sudhir, sudhirnandane, portfolio"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+
+    <title>Sudhir Nandane</title>
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+
+  <!-- On Click Animation Effect' -->
+
+
+  <script>
+    $(document).ready(function () {
+      $('#text-drop')
+        .mouseleave(function () {
+          $(this).removeClass('clicked');
+        })
+        .click(function () {
+          $(this).addClass('clicked').html($(this).html());
+        });
+    });
+  </script>
+</html>
