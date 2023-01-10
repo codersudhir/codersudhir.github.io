@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.77282332.css",
+    "main.js": "/static/js/main.fc948f9e.js",
+    "static/media/profile-pic.jpg": "/static/media/profile-pic.23e2591d6d9decad1e42.jpg",
+    "static/media/ZARA.png": "/static/media/ZARA.0bb32f8492baa0127439.png",
+    "static/media/skintore.png": "/static/media/skintore.de4045136f8d22ff27fb.png",
+    "static/media/orbitzs.png": "/static/media/orbitzs.d12df0e065dd5dc9183a.png",
+    "static/media/milaap.png": "/static/media/milaap.994271cbb5e0ae352ec9.png",
+    "static/media/meanbuy.png": "/static/media/meanbuy.7ef903a050098371bda7.png",
+    "static/media/mymart.png": "/static/media/mymart.1e1d6b06efb187fa6176.png",
+    "static/media/state.png": "/static/media/state.ebacf9deb6b9ea341282.png",
+    "static/media/typescript.png": "/static/media/typescript.8e08c2165d60d7ca62a9.png",
+    "static/media/mongodb.png": "/static/media/mongodb.909c449de1a2e13f24cb.png",
+    "static/media/express.png": "/static/media/express.9b344d7469dbbdc76754.png",
+    "index.html": "/index.html",
+    "main.77282332.css.map": "/static/css/main.77282332.css.map",
+    "main.fc948f9e.js.map": "/static/js/main.fc948f9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77282332.css",
+    "static/js/main.fc948f9e.js"
+  ]
+}
