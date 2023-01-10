@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 
 const MobileMenu = () => {
   return (
-    <div className="mobile_menu">
+    <div className="mobile_menu" >
       <Menu>
         <MenuButton
           as={IconButton}

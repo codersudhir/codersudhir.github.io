@@ -7,12 +7,15 @@ const ProjectCard = props => {
   return (
     <>
       <VStack className="project_card" border={"1px solid white"} gap="1" color="white" width={"100%"}>
-      <LazyLoadImage src={props.imgSrc} id="image" />
+      <LazyLoadImage src={props.imgSrc} id="image"   />
         <Flex justifyContent={"space-between"}>  
         <Box
           className="description"
           width="100%"
-        >  <p style={{fontSize:"15px",padding:"10px"}}>{props.discription}</p>
+        > 
+        <p style={{fontSize:"15px",padding:"10px",textAlign:"center"}}>{props.name}</p>
+        
+         <p style={{fontSize:"15px",padding:"10px"}}>{props.discription}</p>
 
          <p style={{display:"flex",marginLeft:"10px",fontSize:"15px"}}> <h1>Tech Stack :</h1> {props.stack}</p>
          

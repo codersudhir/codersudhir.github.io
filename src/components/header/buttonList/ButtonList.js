@@ -4,9 +4,10 @@ import { HStack} from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 
 const ButtonList = () => {
+ 
   return (
-    <div className="button_list" >
-      <HStack mt="4" mr="2" className="button_stack">
+    <div className="button_list" style={{position:"fixed"}} >
+      <HStack marginLeft={"80%"} mt="2" mr="4" className="button_stack"   >
         <Link to="/">
           <button>Home</button>
         </Link>

@@ -21,7 +21,7 @@ const Header = () => {
         <Flex >
          
           <span className="spacer"></span>
-          <MobileMenu />
+          <MobileMenu  />
           <ButtonList width="80" />
         </Flex>
       </VStack>

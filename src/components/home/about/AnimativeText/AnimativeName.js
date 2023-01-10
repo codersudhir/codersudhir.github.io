@@ -4,7 +4,7 @@ import "./TextAnimation.css";
 
 const AnimativeName = () => {
   return (
-    <Heading
+    <Heading  marginTop={"30px"}
           fontSize={['2rem', '2.4rem', '2.6rem', '2.8rem']}
           color="orangered"
           id="text-drop"

@@ -11,7 +11,7 @@ const About = () => {
     <>
       <Box p={['3', '4', '4', '4']} mb="4" className="aboutContainer">
         <AnimativeName />
-        <Heading
+        <Heading 
           fontSize={['1.2rem', '1.4rem', '1.6rem', '1.6rem']}
           color="whiteAlpha.700"
           mt="1"
