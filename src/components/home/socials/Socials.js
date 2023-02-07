@@ -11,7 +11,7 @@ const Socials = () => {
         justify={['center', 'center', 'center', 'left']}
         gap={['2', '3', '4', '4']} 
       >
-        <Link href="https://www.linkedin.com/in/sudhir-nandane-38843212a/" isExternal>
+        <Link href="https://www.linkedin.com/in/sudhir-nandane-38843212a/" id="contact-linkedin"  isExternal>
           <IconButton
           backgroundColor= 'black'
           color= 'white'
@@ -39,7 +39,7 @@ const Socials = () => {
             }}
           ></IconButton>
         </Link>
-        <Link href="https://github.com/codersudhir" isExternal>
+        <Link id="contact-github" href="https://github.com/codersudhir" isExternal>
           <IconButton
            backgroundColor= 'black'
               color= 'white'

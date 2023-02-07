@@ -18,7 +18,7 @@ import git from "./skillsimg/git.png"
 import typescript from "./skillsimg/typescript.png"
 const Skills = () => {
   return (
-    <div style={{color:"white"}}>
+    <div style={{color:"white"}} id="skills">
      <h1 style={{fontSize:"40px",textAlign:"center"}}>Skills</h1>
         <Center w="100vw">
           <Grid className="projects_grid" m="10">

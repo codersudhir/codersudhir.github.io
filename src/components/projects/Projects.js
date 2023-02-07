@@ -15,7 +15,7 @@ import ZARA from "./Project_Images/ZARA.png"
 const Projects = () => {
   return (
     <>
-      <div className="projects">
+      <div className="projects" >
         <Text
           fontSize="2xl"
           fontWeight="semibold"
@@ -26,7 +26,7 @@ const Projects = () => {
         </Text>
        
         <Center w="100vw">
-          <Grid className="projects_grid" m="10">
+          <Grid className="projects_grid" m="10"  id="projects">
 
 
           <GridItem  >

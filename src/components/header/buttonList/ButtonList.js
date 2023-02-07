@@ -8,18 +8,18 @@ const ButtonList = () => {
   return (
     <div className="button_list" style={{position:"fixed"}} id="nav-menu" >
       <HStack marginLeft={"80%"} mt="2" mr="4" className="button_stack"   >
-        <Link to="/">
-          <button  class="nav-link home">Home</button>
+        <Link to="/" class="nav-link home">
+          <button  >Home</button>
         </Link>
-        <Link to="/skills">
-          <button  class="nav-link skills">Skills</button>
+        <Link to="/skills" class="nav-link skills">
+          <button  >Skills</button>
         </Link>
-        <Link to="/projects">
-          <button class="nav-link projects">Projects</button>
+        <Link to="/projects" class="nav-link projects">
+          <button >Projects</button>
         </Link>
-        <a href="https://docs.google.com/document/d/1_bWH28nOAnBCozL8CrT66WpHO_9jXLN_xWea7NnGeBc/edit" target="_blank" rel='noreferrer'><button class="nav-link resume">Resume</button></a>
-        <Link to="/contact">
-          <button class="nav-link contact">Contact</button>
+        <a href="https://docs.google.com/document/d/1_bWH28nOAnBCozL8CrT66WpHO_9jXLN_xWea7NnGeBc/edit" target="_blank" rel='noreferrer' class="nav-link resume"><button class="nav-link resume">Resume</button></a>
+        <Link to="/contact" class="nav-link contact">
+          <button >Contact</button>
         </Link>
       </HStack>
     </div>

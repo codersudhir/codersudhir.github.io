@@ -9,10 +9,11 @@ import Skills from './Skills';
 const Home = () => {
   return (
     <>
-      <Flex w="100vw" flexWrap="wrap">
+      <Flex w="100vw" flexWrap="wrap" id="home">
         <Container>
           <Box boxSize={['sm', 'md', 'md', 'md']} m={['4', '4', '4', '8']}>
             <Image
+            class="home-img"
               src={profilePic}
               alt="sudhir"
               w={['80vw', '85vw', '90vw', '40vw']}

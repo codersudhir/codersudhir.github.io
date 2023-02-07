@@ -32,7 +32,7 @@ const Contact = () => {
   };
 
   return (
-    <div style={{color:"white"}}>
+    <div style={{color:"white"}} id="contact">
       <h1 style={{fontSize:"40px",textAlign:"center",marginTop:"15px"}}>Connect With Me</h1>
         <Center w="100vw">
           <Grid className="projects_grid" m="10">
@@ -82,13 +82,13 @@ const Contact = () => {
               </GridItem>
                <GridItem style={{textAlign:"center",fontSize:"bold"}}>
                 <p style={{fontSize:"20px"}}>EMAIL :</p>
-               <Text><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTJpFFRHWXkXsCRVKgQGWHxnqFwTZTrrVFkQZDVlwGlKDlnXrjrhDJngTGtmpmBFwClMZg">nandanesudhir1@gmail.com</a></Text>
+               <Text><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTJpFFRHWXkXsCRVKgQGWHxnqFwTZTrrVFkQZDVlwGlKDlnXrjrhDJngTGtmpmBFwClMZg" id="contact-email">nandanesudhir1@gmail.com</a></Text>
 
                <h1 style={{fontSize:"20px"}}>ADDRESS :</h1>
                <Text>Ashti,Maharashtra,India</Text>
 
                <h1 style={{fontSize:"20px"}}>CONTACT :</h1>
-              <a href="google dialer">9657267157</a>
+              <a href="google dialer" id="contact-phone">9657267157</a>
                
               </GridItem>
               <GridItem >
