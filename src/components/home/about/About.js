@@ -9,7 +9,8 @@ const About = () => {
 
   return (
     <>
-      <Box p={['3', '4', '4', '4']} mb="4" className="aboutContainer" id="about" class="about section">
+    <div  id="about" className="about section">
+    <Box p={['3', '4', '4', '4']} mb="4" className="aboutContainer"  >
         <AnimativeName />
         <Heading 
           fontSize={['1.2rem', '1.4rem', '1.6rem', '1.6rem']}
@@ -43,6 +44,8 @@ const About = () => {
           </p>
         </Box>
       </Box>
+    </div>
+   
     </>
   );
 };

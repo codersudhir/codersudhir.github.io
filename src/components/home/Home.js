@@ -8,8 +8,10 @@ import Contact from './Contact';
 import Skills from './Skills';
 const Home = () => {
   return (
-    <>
-      <Flex w="100vw" flexWrap="wrap" id="home">
+    < >
+    <div id="home"></div>
+
+      <Flex w="100vw" flexWrap="wrap" >
         <Container>
           <Box boxSize={['sm', 'md', 'md', 'md']} m={['4', '4', '4', '8']}>
             <Image
