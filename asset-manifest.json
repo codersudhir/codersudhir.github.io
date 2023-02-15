@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.77282332.css",
-    "main.js": "/static/js/main.e19fe031.js",
+    "main.js": "/static/js/main.f9875b29.js",
     "static/media/profile-pic.jpg": "/static/media/profile-pic.23e2591d6d9decad1e42.jpg",
     "static/media/ZARA.png": "/static/media/ZARA.0bb32f8492baa0127439.png",
     "static/media/skintore.png": "/static/media/skintore.de4045136f8d22ff27fb.png",
@@ -15,10 +15,10 @@
     "static/media/express.png": "/static/media/express.9b344d7469dbbdc76754.png",
     "index.html": "/index.html",
     "main.77282332.css.map": "/static/css/main.77282332.css.map",
-    "main.e19fe031.js.map": "/static/js/main.e19fe031.js.map"
+    "main.f9875b29.js.map": "/static/js/main.f9875b29.js.map"
   },
   "entrypoints": [
     "static/css/main.77282332.css",
-    "static/js/main.e19fe031.js"
+    "static/js/main.f9875b29.js"
   ]
 }
