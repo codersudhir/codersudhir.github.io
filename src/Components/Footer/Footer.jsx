@@ -8,7 +8,7 @@ import {BsTwitter} from "react-icons/bs";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className='footer__logo'>K!RT!R@J</a>
+      <a href="#" className='footer__logo'>SUDHIR</a>
 
       <ul className='permalinks'>
         <li><a href="#">Home</a></li>
@@ -21,14 +21,14 @@ const Footer = () => {
 
       <div className="footer__socials">
 
-        <a href="https://github.com/kirtirajingale"><BsGithub/></a>
-        <a href="https://linkedin.com/in/kirtiraj-ingale"><BsLinkedin/></a>
-        <a href="https://twitter.com/kirtiraj_ingale"><BsTwitter/></a>
+        <a href="https://github.com/codersudhir"><BsGithub/></a>
+        <a href="https://www.linkedin.com/in/sudhir-nandane-38843212a/"><BsLinkedin/></a>
+        <a href="https://github.com/codersudhir"><BsTwitter/></a>
       </div>
 
 
       <div className="footer__copyright">
-        <small>&copy; K!RT!RAJ Portfolio. All rights reserved.</small>
+        <small>&copy; Sudhir's Porfolio. All rights reserved.</small>
       </div>
     </footer>
   )
