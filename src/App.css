@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.dark{
+  background: rgb(1, 0, 13);
+  color:white;
+}
+.dark .card{
+  /* color:black; */
+  background: rgb(1, 0, 13);
+   color:white;
+   border:1px solid white;
+}
+
+.light{
+  
+   background:white;
+   color:black;
+}
+
+
