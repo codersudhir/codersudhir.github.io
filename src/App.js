@@ -1,31 +1,26 @@
-import {React} from 'react';
-import { ChakraProvider, VStack} from '@chakra-ui/react';
-import Header from './components/header/Header';
-import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import "animate.css"
-import Contact from './components/home/Contact';
-import Home from './components/home/Home';
-import Projects from './components/projects/Projects';
-import Skills from './components/home/Skills';
-import {theme} from "./Theme/Theme";
-import Footer from './components/footer/Footer';
+import Nav from "./components/Nav"
+import {ThemeContext} from "./context/ThemeContext";
+import {useContext} from "react";
+import Header from './components/Header';
+import Profile from './components/Profile';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Footer from './components/Footer';
+import GitHubStats from './components/GitHubStats';
 
 function App() {
-  
+const {isLight} = useContext(ThemeContext);
   return (
-    <ChakraProvider theme={theme}>
-      <VStack backgroundColor="brand.300">
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/skills" element={<Skills />} />
-        </Routes>
-        <Footer/>
-      </VStack>
-    </ChakraProvider>
+    <div className={`App${isLight?"light":"dark"}`}>
+      <Nav/>
+      <Header/>
+      <Profile/>
+      <Projects/>
+      <GitHubStats/>
+      <Skills/>
+      <Footer/>
+    </div>
   );
 }
 

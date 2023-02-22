@@ -1,0 +1,79 @@
+.footer {
+    background: rgba(32, 32, 33, 0.9);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  .footer_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border:1px solid white; */
+    margin-top: 2rem;
+  }
+  .footer_image>div{
+    /* border:1px dashed white; */
+    margin:0 1rem;
+  }
+  
+  .footer_image > div > img {
+    max-height: 13vh;
+    max-width: 13vw;
+    
+  }
+  .footer_maindiv {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+  }
+  .footer_maindiv > div {
+    border: none;
+    background-color: none;
+    margin: 10px;
+    transition: width 2s height 2s;
+  }
+  .footer_maindiv > div :hover {
+    width: 60px;
+    height: 60px;
+    fill: rgb(55, 55, 169);
+  }
+  .sub_header > h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-shadow: 6px 4px 6px rgba(0, 0, 0, 0.6);
+  }
+  .sub_header > p {
+    font-size: 1.4rem;
+    font-weight:bolder;
+  }
+  .sub_header > button {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 1rem 2rem;
+    margin: 2rem;
+    font-size: 1.5rem;
+  }
+  .sub_header > div > a {
+    margin: 0.5rem;
+  }
+  .sub_header > div {
+    padding: 1.5rem;
+  }
+  .sub_header > div > a > svg:hover {
+    fill: #151bd6;
+  }
+  
+  @media (max-width: 600px) {
+    .header {
+      height:500px;
+      margin-top: 150px;
+      width:100vw;
+    }
+  }
+  @media (max-width: 1500px) {
+    .header {
+      margin-top: 90px;
+    }
+  }
+  
+  
