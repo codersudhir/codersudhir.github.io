@@ -4,40 +4,40 @@ import projectimg1 from "../../assets/1.png";
 import projectimg2 from "../../assets/2.png";
 import projectimg3 from "../../assets/3.png";
 // import projectimg4 from "../../assets/4.png";
-import projectimg5 from "../../assets/limeroadHP.png";
+import projectimg5 from "../../assets/5.png";
 
 const data = [
   {
     id: 1,
     image: projectimg1,
-    title: "Zoomcar - Clone : It provides passenger vehicle rental services.",
-    tech : "HTML | CSS | Javasript | DOM",
-    github: "https://github.com/kirtirajingale/Zoomcar-Team-Mind-Mantra",
-    demo: "https://dreamy-llama-b91312.netlify.app/",
+    title: "DailyNeeds : It Is E-COMMERCE Electronics Shopping Websites.",
+    tech : "HTML | CSS | TypeScript | React | Redux | Chakra UI",
+    github: "https://github.com/HANUMAT-SHARAN/bright-noise-2667/tree/master/cw-rct201",
+    demo: "https://cw-rct201.vercel.app/",
   },
   {
     id: 2,
     image: projectimg2,
-    title: "KindMeal.my - Clone : It is Malaysia's meat-free lifestyle platform. ",
-    tech : "HTML | CSS | Javasript | DOM",
-    github: "https://github.com/Loki343/arrogant-beef-5673",
-    demo: "https://arrogant-beef-5673.vercel.app/",
+    title: "ZARA.COM  : It is E-COMMERCE Fashion Website",
+    tech : "HTML | CSS | Javasript | React | Redux",
+    github: "https://github.com/rajkumarsahu89/lean-ticket-7646",
+    demo: "https://cerulean-blancmange-9d2121.netlify.app/",
   },
   {
     id: 3,
     image: projectimg3,
-    title:"The Hindu - Clone : The news website that provides us World wide news",
-    tech : "HTML | CSS | Javasript | DOM",
-    github: "https://github.com/meracodemahan/purple-reason-2076",
-    demo: "https://warm-tartufo-8ea9c8.netlify.app/",
+    title:"MYMART.com : it is An Dairyneeds product Website",
+    tech : "HTML | CSS | Javasript | React",
+    github: "https://github.com/codersudhir/steady-name-340",
+    demo: "https://chipper-khapse-233f71.netlify.app/",
   },
   {
     id: 5,
     image: projectimg5,
-    title: "Limeroad- Clone : It is an E-commerce shopping website ",
-    tech : "HTML | CSS | ReactJS | Firebase | Redux | ChakraUI",
-    github: "https://github.com/Avneesh002/Fashion-square",
-    demo: "https://fashi0n-square.netlify.app/",
+    title: "Skintore is beauty products E_COOMERCE Website",
+    tech : "HTML | CSS | ReactJS | ChakraUI",
+    github: "https://github.com/codersudhir/supreme-honey-5251",
+    demo: "https://soft-muffin-a0826a.netlify.app",
   },
 ];
 

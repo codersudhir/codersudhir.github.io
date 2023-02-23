@@ -7,7 +7,7 @@ import js from '../../assets/js.png';
 import reactjs from '../../assets/react.png';
 import nextjs from '../../assets/nextjs-icon.png';
 import redux from '../../assets/redux-icon.png';
-import storybook from '../../assets/storybook.png';
+import TypeScript from '../../assets/typescript.png';
 import chakra from '../../assets/chakra.png';
 import nodejs from '../../assets/node-js-icon.png';
 import mongodb from '../../assets/mongodb-icon.png';
@@ -99,10 +99,10 @@ const Skills = () => {
               <article className='experience__details'>
               {/* <BsPatchCheckFill className='experience__details-icon'/> */}
               <div className='skill-icon'>
-                <img className='icon-tag' src={storybook} alt="storybook" />
+                <img className='icon-tag' src={TypeScript} alt="storybook" />
               </div>
                 <div>
-                    <h4>Storybook</h4>
+                    <h4>TypeScript</h4>
                 </div>
               </article>
 

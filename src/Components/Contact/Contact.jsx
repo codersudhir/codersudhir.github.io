@@ -29,6 +29,7 @@ const Contact = () => {
         console.log('FAILED...', err);
       });
     console.log(toSend)
+    window.scroll(0,0);
   };
 
   const handleChange = (e) => {
