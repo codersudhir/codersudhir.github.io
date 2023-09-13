@@ -5,6 +5,7 @@ import {BsLinkedin} from "react-icons/bs";
 import {BsMessenger} from "react-icons/bs";
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2';
 
 const Contact = () => {
   const [toSend, setToSend] = useState({
@@ -24,12 +25,14 @@ const Contact = () => {
     )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
+        Swal.fire('Your Message Succefully  Send')
       })
       .catch((err) => {
         console.log('FAILED...', err);
+        Swal.fire('Please fill proper details')
       });
     console.log(toSend)
-    window.scroll(0,0);
+    
   };
 
   const handleChange = (e) => {
@@ -70,6 +73,7 @@ const Contact = () => {
                name='from_name'
                placeholder='Your Name'
               value={toSend.from_name}
+              required
                onChange={handleChange}/>
 
           <input type='text'
@@ -81,6 +85,7 @@ const Contact = () => {
                 name='message'
                 placeholder='Your message'
                 value={toSend.message}
+                required
                 onChange={handleChange}></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
 

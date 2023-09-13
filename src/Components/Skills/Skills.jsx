@@ -52,17 +52,7 @@ const Skills = () => {
                 <img className='icon-tag' src={nextjs} alt="nextjs" />
               </div>
                 <div>
-                    <h4>NEXTJS</h4>
-                </div>
-              </article>
-
-              <article className='experience__details'>
-              {/* <BsPatchCheckFill className='experience__details-icon'/> */}
-              <div className='skill-icon'>
-                <img className='icon-tag' src={css} alt="JS" />
-              </div>
-                <div>
-                    <h4>CSS</h4>
+                    <h4>NEXTJS-13</h4>
                 </div>
               </article>
 
@@ -76,6 +66,22 @@ const Skills = () => {
                 </div>
               </article>
 
+
+              <article className='experience__details'>
+              {/* <BsPatchCheckFill className='experience__details-icon'/> */}
+              <div className='skill-icon'>
+                <img className='icon-tag' src={css} alt="JS" />
+              </div>
+                <div>
+                    <h4>CSS</h4>
+                </div>
+              </article>
+
+
+             
+
+             
+
               <article className='experience__details'>
               {/* <BsPatchCheckFill className='experience__details-icon'/>  */}
               <div className='skill-icon'>
@@ -83,16 +89,6 @@ const Skills = () => {
               </div>
                 <div>
                     <h4>JavaScript</h4>
-                </div>
-              </article>
-
-              <article className='experience__details'>
-              {/* <BsPatchCheckFill className='experience__details-icon'/> */}
-              <div className='skill-icon'>
-                <img className='icon-tag' src={redux} alt="redux" />
-              </div>
-                <div>
-                    <h4>Redux</h4>
                 </div>
               </article>
 
@@ -109,10 +105,71 @@ const Skills = () => {
               <article className='experience__details'>
               {/* <BsPatchCheckFill className='experience__details-icon'/> */}
               <div className='skill-icon'>
+                <img className='icon-tag' src={redux} alt="redux" />
+              </div>
+                <div>
+                    <h4>Redux Toolkit</h4>
+                </div>
+              </article>
+
+              <article className='experience__details'>
+              {/* <BsPatchCheckFill className='experience__details-icon'/> */}
+              <div className='skill-icon'>
+                <img className='icon-tag' src={"https://www.transparentpng.com/thumb/seo-png/seo-background-16.png"} alt="nextjs" />
+              </div>
+                <div>
+                    <h4>SEO</h4>
+                </div>
+              </article>
+
+             
+             
+
+              <article className='experience__details'>
+              {/* <BsPatchCheckFill className='experience__details-icon'/> */}
+              <div className='skill-icon'>
                 <img className='icon-tag' src={chakra} alt="chakra" />
               </div>
                 <div>
                     <h4>Chakra UI</h4>
+                </div>
+              </article>
+
+              <article className='experience__details'>
+              {/* <BsPatchCheckFill className='experience__details-icon'/> */}
+              <div className='skill-icon'>
+                <img className='icon-tag' src={"https://e7.pngegg.com/pngimages/391/430/png-clipart-bootstrap-full-logo-tech-companies-thumbnail.png"} alt="chakra" />
+              </div>
+                <div>
+                    <h4>Bootstrap</h4>
+                </div>
+              </article>
+
+              <article className='experience__details'>
+              {/* <BsPatchCheckFill className='experience__details-icon'/> */}
+              <div className='skill-icon'>
+                <img className='icon-tag' src={"https://codesyariah122.github.io/assets/images/post/tailwindcss.png"} alt="chakra" />
+              </div>
+                <div>
+                    <h4>Tailwind</h4>
+                </div>
+              </article>
+              <article className='experience__details'>
+              {/* <BsPatchCheckFill className='experience__details-icon'/> */}
+              <div className='skill-icon'>
+                <img className='icon-tag' src={"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/2048px-GraphQL_Logo.svg.png"} alt="chakra" />
+              </div>
+                <div>
+                    <h4>Graph QL</h4>
+                </div>
+              </article>
+              <article className='experience__details'>
+              {/* <BsPatchCheckFill className='experience__details-icon'/> */}
+              <div className='skill-icon'>
+                <img className='icon-tag' src={"https://w7.pngwing.com/pngs/862/624/png-transparent-aws-vector-brand-logos-icon.png"} alt="chakra" />
+              </div>
+                <div>
+                    <h4>AWS</h4>
                 </div>
               </article>
              </div>
