@@ -17,8 +17,8 @@ import github from '../../assets/github.png';
 import cypress from '../../assets/cypress.png';
 import vscode from "../../assets/vscode.png";
 import reacttesting from '../../assets/react-tesing.png'
-
-
+import firebase from '../../assets/firebase.png'
+import cyclic from '../../assets/cyclic sh.png'
 const Skills = () => {
   return (
     <section id='skills'>
@@ -171,7 +171,9 @@ const Skills = () => {
                 <div>
                     <h4>AWS</h4>
                 </div>
+                
               </article>
+              
              </div>
           </div>
 
@@ -194,6 +196,16 @@ const Skills = () => {
               <article className='experience__details'>
               {/* <BsPatchCheckFill className='experience__details-icon'/> */}
               <div className='skill-icon'>
+                <img className='icon-tag' src={expressjs} alt="expressjs" />
+              </div>
+                <div>
+                    <h4>Express JS</h4>
+                </div>
+              </article>
+
+              <article className='experience__details'>
+              {/* <BsPatchCheckFill className='experience__details-icon'/> */}
+              <div className='skill-icon'>
                 <img className='mongoDB' src={mongodb} alt="mongodb" />
               </div>
                 <div>
@@ -201,14 +213,16 @@ const Skills = () => {
                 </div>
               </article>
 
+             
               <article className='experience__details'>
               {/* <BsPatchCheckFill className='experience__details-icon'/> */}
               <div className='skill-icon'>
-                <img className='icon-tag' src={expressjs} alt="expressjs" />
+                <img className='icon-tag' src={firebase} alt="chakra" />
               </div>
                 <div>
-                    <h4>Express JS</h4>
+                    <h4>FIrebase</h4>
                 </div>
+                
               </article>
 
               <article className='experience__details'>
@@ -258,6 +272,15 @@ const Skills = () => {
               </div>
                 <div>
                     <h4>Testing</h4>
+                </div>
+              </article>
+              <article className='experience__details'>
+              {/* <BsPatchCheckFill className='experience__details-icon'/> */}
+              <div className='skill-icon'>
+                <img className='icon-tag' src={cyclic} alt="cyclic" />
+              </div>
+                <div>
+                    <h4>Cyclic SH</h4>
                 </div>
               </article>
              </div>

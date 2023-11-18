@@ -5,10 +5,27 @@ import projectimg2 from "../../assets/2.png";
 import projectimg3 from "../../assets/3.png";
 // import projectimg4 from "../../assets/4.png";
 import projectimg5 from "../../assets/5.png";
-
+import projectimg6 from "../../assets/6.png";
+import projectimg7 from "../../assets/7.png";
 const data = [
   {
     id: 1,
+    image: projectimg6,
+    title: "Streamer : It Is An Video And Audio straming Website.",
+    tech : "HTML | CSS | JavaScript | Next.js | BootStrap | Node.js | Express.js | Mongo DB | Firebase | Cyclic Sh | AWS-SDK ",
+    github: "https://github.com/codersudhir/CastleProject",
+    demo: "https://castle-project-codersudhir.vercel.app/",
+  },
+  {
+    id: 2,
+    image: projectimg7,
+    title: "Attierly : It Is E-COMMERCE Electronics Shopping Websites.",
+    tech : "HTML | CSS | JavaScript | React | Redux | Chakra UI || Firebase || Netify ",
+    github: "https://github.com/HANUMAT-SHARAN/bright-noise-2667/tree/master/cw-rct201",
+    demo: "https://myntra-attirely-rct201.vercel.app/",
+  },
+   {
+    id: 3,
     image: projectimg1,
     title: "DailyNeeds : It Is E-COMMERCE Electronics Shopping Websites.",
     tech : "HTML | CSS | TypeScript | React | Redux | Chakra UI",
@@ -16,7 +33,7 @@ const data = [
     demo: "https://cw-rct201.vercel.app/",
   },
   {
-    id: 2,
+    id: 4,
     image: projectimg2,
     title: "ZARA.COM  : It is E-COMMERCE Fashion Website",
     tech : "HTML | CSS | Javasript | React | Redux",
@@ -24,7 +41,7 @@ const data = [
     demo: "https://cerulean-blancmange-9d2121.netlify.app/",
   },
   {
-    id: 3,
+    id: 5,
     image: projectimg3,
     title:"MYMART.com : it is An Dairyneeds product Website",
     tech : "HTML | CSS | Javasript | React",
@@ -32,7 +49,7 @@ const data = [
     demo: "https://chipper-khapse-233f71.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     image: projectimg5,
     title: "Skintore is beauty products E_COOMERCE Website",
     tech : "HTML | CSS | ReactJS | ChakraUI",
