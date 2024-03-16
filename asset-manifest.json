@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.712ebaa7.css",
-    "main.js": "/static/js/main.9ed865a2.js",
+    "main.js": "/static/js/main.09206046.js",
+    "static/media/6.png": "/static/media/6.76437c01c8e91b9bf695.png",
     "static/media/dp.jpg": "/static/media/dp.23e2591d6d9decad1e42.jpg",
-    "static/media/6.png": "/static/media/6.4ab64b15bb8e3b7ffcfe.png",
     "static/media/7.png": "/static/media/7.f53db242de11f4a92c45.png",
     "static/media/2.png": "/static/media/2.a26a89fbf8160547409a.png",
     "static/media/1.png": "/static/media/1.93823c1b139d8519e17c.png",
     "static/media/3.png": "/static/media/3.055a576b11e101bed13a.png",
     "static/media/5.png": "/static/media/5.3661c63ad397775d7cca.png",
     "static/media/check2.png": "/static/media/check2.cd427cfd4c449ffe9967.png",
-    "static/media/cv.pdf": "/static/media/cv.0a357d62ac9be26d66e6.pdf",
     "static/media/react-tesing.png": "/static/media/react-tesing.bcfc14f72967324353f5.png",
+    "static/media/Sudhir_Nandane.pdf": "/static/media/Sudhir_Nandane.baef4caa46f01e6401d1.pdf",
     "static/media/cyclic sh.png": "/static/media/cyclic sh.354a2f2833d276019e77.png",
     "static/media/chakra.png": "/static/media/chakra.7d7f14f761b4dfbe1520.png",
     "static/media/react.png": "/static/media/react.809fed23bcdd686de66e.png",
@@ -25,10 +25,10 @@
     "static/media/express-js-icon.png": "/static/media/express-js-icon.9b344d7469dbbdc76754.png",
     "index.html": "/index.html",
     "main.712ebaa7.css.map": "/static/css/main.712ebaa7.css.map",
-    "main.9ed865a2.js.map": "/static/js/main.9ed865a2.js.map"
+    "main.09206046.js.map": "/static/js/main.09206046.js.map"
   },
   "entrypoints": [
     "static/css/main.712ebaa7.css",
-    "static/js/main.9ed865a2.js"
+    "static/js/main.09206046.js"
   ]
 }
