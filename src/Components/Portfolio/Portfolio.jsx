@@ -11,10 +11,10 @@ const data = [
   {
     id: 1,
     image: projectimg6,
-    title: "Streamer : It Is An Video And Audio straming Website.",
-    tech : "HTML | CSS | JavaScript | Next.js | BootStrap | Node.js | Express.js | Mongo DB | Firebase | Cyclic Sh | AWS-SDK ",
-    github: "https://github.com/codersudhir/CastleProject",
-    demo: "https://castle-project-codersudhir.vercel.app/",
+    title: "Bharatconnect : It Is An Social media platform",
+    tech : "Typescript | Next.js | Tailwind css | Node.js | Express.js | Mongo DB | Cyclic Sh | AWS ",
+    github: "https://github.com/codersudhir/BharatConnect",
+    demo: "https://bharat-connect.vercel.app",
   },
   {
     id: 2,
@@ -32,14 +32,14 @@ const data = [
     github: "https://github.com/HANUMAT-SHARAN/bright-noise-2667/tree/master/cw-rct201",
     demo: "https://cw-rct201.vercel.app/",
   },
-  {
-    id: 4,
-    image: projectimg2,
-    title: "ZARA.COM  : It is E-COMMERCE Fashion Website",
-    tech : "HTML | CSS | Javasript | React | Redux",
-    github: "https://github.com/rajkumarsahu89/lean-ticket-7646",
-    demo: "https://cerulean-blancmange-9d2121.netlify.app/",
-  },
+  // {
+  //   id: 4,
+  //   image: projectimg2,
+  //   title: "ZARA.COM  : It is E-COMMERCE Fashion Website",
+  //   tech : "HTML | CSS | Javasript | React | Redux",
+  //   github: "https://github.com/rajkumarsahu89/lean-ticket-7646",
+  //   demo: "https://cerulean-blancmange-9d2121.netlify.app/",
+  // },
   {
     id: 5,
     image: projectimg3,
@@ -48,14 +48,14 @@ const data = [
     github: "https://github.com/codersudhir/steady-name-340",
     demo: "https://chipper-khapse-233f71.netlify.app/",
   },
-  {
-    id: 6,
-    image: projectimg5,
-    title: "Skintore is beauty products E_COOMERCE Website",
-    tech : "HTML | CSS | ReactJS | ChakraUI",
-    github: "https://github.com/codersudhir/supreme-honey-5251",
-    demo: "https://soft-muffin-a0826a.netlify.app",
-  },
+  // {
+  //   id: 6,
+  //   image: projectimg5,
+  //   title: "Skintore is beauty products E_COOMERCE Website",
+  //   tech : "HTML | CSS | ReactJS | ChakraUI",
+  //   github: "https://github.com/codersudhir/supreme-honey-5251",
+  //   demo: "https://soft-muffin-a0826a.netlify.app",
+  // },
 ];
 
 const Portfolio = () => {

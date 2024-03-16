@@ -1,10 +1,10 @@
 import React from 'react';
-import CV from "../../assets/cv.pdf"
+import CV from "../../assets/Sudhir_Nandane.pdf"
 
 const CTA = () => {
   const handleResume = () =>{
     window.open(
-      "https://drive.google.com/file/d/1ytkYgHNV2YpCXZgnTRPe7_OllLy0NmnH/view?usp=share_link"
+      "https://drive.google.com/file/d/1PktwbuFwhlW0XYZFAL03lEK1yaXKDq85/view?usp=sharing"
     )
   }
   return (
