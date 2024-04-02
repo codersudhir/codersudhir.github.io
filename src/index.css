@@ -31,15 +31,32 @@ html {
   display: none;
 }
 
-body{
+body {
   font-family: 'Poppins', sans-serif;
   background: var(--color-bg);
-  color:var(--color-white);
+  color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/check2.png);
-  height: 100%;
+  background-image: url(../src/assets/check4.jpg);
+  height: 100vh; /* Use viewport height for full-screen */
   background-position: center;
-  /* background-size: cover; */
+  animation: slideBackground 10s linear infinite alternate; /* Animation properties */
+}
+
+@keyframes slideBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Apply the animation to an element */
+.element-with-animation {
+  animation-name: slideBackground;
+  animation-duration: 20s; /* Adjust duration as needed */
+  animation-timing-function: ease-in-out; /* Smoother animation timing */
+  animation-iteration-count: infinite; /* Repeat indefinitely */
 }
 
 
@@ -55,7 +72,7 @@ h2,
 h3,
 h4,
 h5{
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h1{

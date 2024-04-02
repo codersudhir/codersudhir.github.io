@@ -1,12 +1,13 @@
 import React from "react";
 import "./portfolio.css";
 import projectimg1 from "../../assets/1.png";
-import projectimg2 from "../../assets/2.png";
+// import projectimg2 from "../../assets/2.png";
 import projectimg3 from "../../assets/3.png";
-// import projectimg4 from "../../assets/4.png";
-import projectimg5 from "../../assets/5.png";
+
+// import projectimg5 from "../../assets/5.png";
 import projectimg6 from "../../assets/6.png";
 import projectimg7 from "../../assets/7.png";
+import projectimg8 from "../../assets/vovel.png";
 const data = [
   {
     id: 1,
@@ -15,6 +16,14 @@ const data = [
     tech : "Typescript | Next.js | Tailwind css | Node.js | Express.js | Mongo DB | Cyclic Sh | AWS ",
     github: "https://github.com/codersudhir/BharatConnect",
     demo: "https://bharat-connect.vercel.app",
+  },
+  {
+    id: 1.5,
+    image: projectimg8,
+    title: "Shopify: An E-COMMERCE Platform",
+    tech : "Typescript | Next.js | Tailwind css | Node.js | Express.js | Mongo DB | AWS ",
+    github: "https://github.com/codersudhir/volvoweb",
+    demo: "https://volvoweb.vercel.app/",
   },
   {
     id: 2,
@@ -32,14 +41,7 @@ const data = [
     github: "https://github.com/HANUMAT-SHARAN/bright-noise-2667/tree/master/cw-rct201",
     demo: "https://cw-rct201.vercel.app/",
   },
-  // {
-  //   id: 4,
-  //   image: projectimg2,
-  //   title: "ZARA.COM  : It is E-COMMERCE Fashion Website",
-  //   tech : "HTML | CSS | Javasript | React | Redux",
-  //   github: "https://github.com/rajkumarsahu89/lean-ticket-7646",
-  //   demo: "https://cerulean-blancmange-9d2121.netlify.app/",
-  // },
+ 
   {
     id: 5,
     image: projectimg3,

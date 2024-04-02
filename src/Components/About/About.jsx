@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/dp.jpg";
+import ME from "../../assets/dp.png";
 import { FaAward } from "react-icons/fa";
 import { FaGraduationCap } from "react-icons/fa";
 import { FaProjectDiagram } from "react-icons/fa";
@@ -20,13 +20,7 @@ const About = () => {
 
         <div className="about__content">
           <div className="about__cards">
-          <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>SDE-1 </small><br />
-              <small>Itaxeasy pvt ltd</small><br />
-              <small>  Present </small>
-            </article>
+         
 
             <article className="about__card">
               <FaAward className="about__icon" />

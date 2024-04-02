@@ -20,14 +20,14 @@
 }
 
 .about__me-image{
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(4deg);
-    transition: var(--transition);
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: transform var(--transition);
 }
 
 .about__me-image:hover{
-    transform: rotate(0);
+  transform: rotate(0);
 }
 
 .about__cards{

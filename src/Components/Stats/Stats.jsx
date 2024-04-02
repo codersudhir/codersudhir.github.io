@@ -28,7 +28,7 @@ const Stats = () => {
         <a href="https://github.com/codersudhir/github-readme-stats">
           <img
             width="20px"
-            alt="Kirtiraj Ingale's Top Languages"
+            alt="Sudhir Nandane's Top Languages"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=codersudhir&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=2C2C6C"
           />
         </a>  
