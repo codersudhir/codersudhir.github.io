@@ -20,15 +20,25 @@
 }
 
 .about__me-image{
-  border-radius: 2rem;
-  overflow: hidden;
-  transform: rotate(10deg);
-  transition: transform var(--transition);
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: opacity 0.5s ease-in-out ;
+    animation: fadeInOut 10s ease-in-out forwards;
+    animation: slideFromLeft 2s ease-in-out forwards;
+    opacity: 0;
 }
 
-.about__me-image:hover{
-  transform: rotate(0);
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
+
 
 .about__cards{
     display: grid;
@@ -43,9 +53,36 @@
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    overflow: hidden;
+    transition: opacity 0.3s ease-in-out ;
+    animation: fadeInOut 10s ease-in-out forwards;
+    animation: slideFromRight 2s ease-in-out forwards;
+    opacity: 0;
+  }
+
   
-  
-}
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
 
 .about__card:hover{
     background: transparent;
